@@ -154,3 +154,35 @@
     text-align: center;
     margin-top: 40px;
 }
+
+.provide-good-food-section{
+    display: flex;
+    gap: 54px;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.food-media-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.media-title{
+    margin-bottom: 14px;
+    font-size: 29px;
+}
+
+.media-description{
+    font-size: 14px;
+}
+
+.follow-media{
+    border-top: 1px  solid black;
+    border-bottom: 1px  solid black;
+    padding: 18px 0;
+    margin-top: 22px;
+    margin-bottom: 18px;
+    font-size: 19px;
+}
