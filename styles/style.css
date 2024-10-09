@@ -159,7 +159,7 @@
     display: flex;
     gap: 54px;
     justify-content: center;
-    margin-top: 85px;
+    margin-top: 100px;
 }
 
 .food-media-container{
@@ -185,4 +185,9 @@
     margin-top: 22px;
     margin-bottom: 18px;
     font-size: 19px;
+}
+
+.newsletter-section{
+    margin-top: 100px;
+    margin-bottom: 85px;
 }
