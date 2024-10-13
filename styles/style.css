@@ -166,28 +166,32 @@
 }
 
 /* About Us Section Styles */
-.provide-good-food-section{
+.about-us-section{
     max-width: 1148px;
     margin: 0 auto;
     display: flex;
     gap: 67px;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 100px;
     border: 1px dashed lightgray;
     border-radius: 10px;
-}
-
-.provide-good-food-image-container{
-    max-width: 835px;
-    height: 583px;
-}
-
-.food-media-container{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-us-image-container{
+    width: 50%;
+    /* border: 1px dashed lightgray; */
+}
+
+.about-us-media-container{
+    display: flex;
     align-items: center;
-    justify-content: center;
-    max-width: 772px;
+    width: 50%;
+    text-align: center;
+    /* margin: auto 0; */
+    /* border: 1px dashed lightgray; */
+    /* border-radius: 10px; */
 }
 
 /* Single Card Section Style */
@@ -208,7 +212,7 @@
     margin-top: 100px;
     margin-bottom: 85px;
     padding: 119px 0;
-    border: 1px dashed lightgray;
+    /* border: 1px dashed lightgray; */
     border-radius: 10px;
 } 
 
