@@ -74,8 +74,12 @@
 }
 
 /*  Card Box Section Styles */
-.favorite-brand{
+.card-box{
+    max-width: 1148px;
+    margin: 0 auto;
     margin-top: 50px;
+    border: 1px dashed lightgray;
+    border-radius: 10px;
 }
 
 .card-section{
@@ -88,7 +92,7 @@
     gap: 14px;
     max-width: 1150px;
     margin: 0 auto;
-    /* border: 2px solid green; */
+    /* border: 2px dashed lightgray; */
 }
 
 .card-title-section{
@@ -163,25 +167,34 @@
 
 /* About Us Section Styles */
 .provide-good-food-section{
+    max-width: 1148px;
+    margin: 0 auto;
     display: flex;
     gap: 54px;
     justify-content: center;
     margin-top: 100px;
+    border: 1px dashed lightgray;
+    border-radius: 10px;
 }
 
 /* Single Card Section Style */
 .single-card{
     max-width: 361px;
-    border: 2px dashed lightgray;
-    border-radius: 10px;
+    border: 1px dashed lightgray;
+    border-radius: 20px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 
 /* Social Media Section Styles */
 .social-media-section{
+    max-width: 1148px;
+    margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 85px;
+    border: 1px dashed lightgray;
+    border-radius: 10px;
 } 
 
 .food-media-container{
